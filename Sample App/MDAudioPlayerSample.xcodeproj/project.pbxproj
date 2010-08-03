@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* MDAudioPlayerSampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* MDAudioPlayerSampleAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
+		28F335F11007B36200424DE2 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F335F01007B36200424DE2 /* RootViewController.xib */; };
+		C99ACC5E1208ADC9004ED7EE /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C99ACC5B1208ADC9004ED7EE /* 1.mp3 */; };
+		C99ACC5F1208ADC9004ED7EE /* 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C99ACC5C1208ADC9004ED7EE /* 2.mp3 */; };
+		C99ACC601208ADC9004ED7EE /* 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C99ACC5D1208ADC9004ED7EE /* 3.mp3 */; };
+		C99ACCD51208AE54004ED7EE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99ACCD41208AE54004ED7EE /* AudioToolbox.framework */; };
+		C99ACCD71208AE54004ED7EE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99ACCD61208AE54004ED7EE /* AVFoundation.framework */; };
+		C99ACD531208AE80004ED7EE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99ACD521208AE80004ED7EE /* QuartzCore.framework */; };
+		C99ACD6D1208AE8C004ED7EE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99ACD6C1208AE8C004ED7EE /* CoreGraphics.framework */; };
+		C99ACE301208B34C004ED7EE /* AudioPlayerAlbumInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = C99ACE1B1208B34C004ED7EE /* AudioPlayerAlbumInfo.png */; };
+		C99ACE311208B34C004ED7EE /* AudioPlayerBarBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = C99ACE1C1208B34C004ED7EE /* AudioPlayerBarBackground.png */; };
+		C99ACE321208B34C004ED7EE /* AudioPlayerNextTrack.png in Resources */ = {isa = PBXBuildFile; fileRef = C99ACE1D1208B34C004ED7EE /* AudioPlayerNextTrack.png */; };
+		C99ACE331208B34C004ED7EE /* AudioPlayerNoArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = C99ACE1E1208B34C004ED7EE /* AudioPlayerNoArtwork.png */; };
+		C99ACE341208B34C004ED7EE /* AudioPlayerPause.png in Resources */ = {isa = PBXBuildFile; fileRef = C99ACE1F1208B34C004ED7EE /* AudioPlayerPause.png */; };
+		C99ACE351208B34C004ED7EE /* AudioPlayerPlay.png in Resources */ = {isa = PBXBuildFile; fileRef = C99ACE201208B34C004ED7EE /* AudioPlayerPlay.png */; };
+		C99ACE361208B34C004ED7EE /* AudioPlayerPrevTrack.png in Resources */ = {isa = PBXBuildFile; fileRef = C99ACE211208B34C004ED7EE /* AudioPlayerPrevTrack.png */; };
+		C99ACE371208B34C004ED7EE /* AudioPlayerRepeatOff.png in Resources */ = {isa = PBXBuildFile; fileRef = C99ACE221208B34C004ED7EE /* AudioPlayerRepeatOff.png */; };
+		C99ACE381208B34C004ED7EE /* AudioPlayerRepeatOn.png in Resources */ = {isa = PBXBuildFile; fileRef = C99ACE231208B34C004ED7EE /* AudioPlayerRepeatOn.png */; };
+		C99ACE391208B34C004ED7EE /* AudioPlayerRepeatOneOn.png in Resources */ = {isa = PBXBuildFile; fileRef = C99ACE241208B34C004ED7EE /* AudioPlayerRepeatOneOn.png */; };
+		C99ACE3A1208B34C004ED7EE /* AudioPlayerScrubberKnob.png in Resources */ = {isa = PBXBuildFile; fileRef = C99ACE251208B34C004ED7EE /* AudioPlayerScrubberKnob.png */; };
+		C99ACE3B1208B34C004ED7EE /* AudioPlayerScrubberLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = C99ACE261208B34C004ED7EE /* AudioPlayerScrubberLeft.png */; };
+		C99ACE3C1208B34C004ED7EE /* AudioPlayerScrubberRight.png in Resources */ = {isa = PBXBuildFile; fileRef = C99ACE271208B34C004ED7EE /* AudioPlayerScrubberRight.png */; };
+		C99ACE3D1208B34C004ED7EE /* AudioPlayerShuffleOff.png in Resources */ = {isa = PBXBuildFile; fileRef = C99ACE281208B34C004ED7EE /* AudioPlayerShuffleOff.png */; };
+		C99ACE3E1208B34C004ED7EE /* AudioPlayerShuffleOn.png in Resources */ = {isa = PBXBuildFile; fileRef = C99ACE291208B34C004ED7EE /* AudioPlayerShuffleOn.png */; };
+		C99ACE401208B34C004ED7EE /* AudioPlayerVolumeKnob.png in Resources */ = {isa = PBXBuildFile; fileRef = C99ACE2B1208B34C004ED7EE /* AudioPlayerVolumeKnob.png */; };
+		C99ACE411208B34C004ED7EE /* MDAudioFile.m in Sources */ = {isa = PBXBuildFile; fileRef = C99ACE2D1208B34C004ED7EE /* MDAudioFile.m */; };
+		C99ACE421208B34C004ED7EE /* MDAudioPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = C99ACE2F1208B34C004ED7EE /* MDAudioPlayerController.m */; };
+		C9A1795D1208B5FE000E7E81 /* AudioPlayerTableBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = C9A1795C1208B5FE000E7E81 /* AudioPlayerTableBackground.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* MDAudioPlayerSampleAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDAudioPlayerSampleAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* MDAudioPlayerSampleAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDAudioPlayerSampleAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* MDAudioPlayerSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDAudioPlayerSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28A0AAE50D9B0CCF005BE974 /* MDAudioPlayerSample_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDAudioPlayerSample_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		28F335F01007B36200424DE2 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* MDAudioPlayerSample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MDAudioPlayerSample-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		C99ACC5B1208ADC9004ED7EE /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1.mp3; sourceTree = "<group>"; };
+		C99ACC5C1208ADC9004ED7EE /* 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2.mp3; sourceTree = "<group>"; };
+		C99ACC5D1208ADC9004ED7EE /* 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 3.mp3; sourceTree = "<group>"; };
+		C99ACCD41208AE54004ED7EE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C99ACCD61208AE54004ED7EE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C99ACD521208AE80004ED7EE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C99ACD6C1208AE8C004ED7EE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C99ACE1B1208B34C004ED7EE /* AudioPlayerAlbumInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerAlbumInfo.png; sourceTree = "<group>"; };
+		C99ACE1C1208B34C004ED7EE /* AudioPlayerBarBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerBarBackground.png; sourceTree = "<group>"; };
+		C99ACE1D1208B34C004ED7EE /* AudioPlayerNextTrack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerNextTrack.png; sourceTree = "<group>"; };
+		C99ACE1E1208B34C004ED7EE /* AudioPlayerNoArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerNoArtwork.png; sourceTree = "<group>"; };
+		C99ACE1F1208B34C004ED7EE /* AudioPlayerPause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerPause.png; sourceTree = "<group>"; };
+		C99ACE201208B34C004ED7EE /* AudioPlayerPlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerPlay.png; sourceTree = "<group>"; };
+		C99ACE211208B34C004ED7EE /* AudioPlayerPrevTrack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerPrevTrack.png; sourceTree = "<group>"; };
+		C99ACE221208B34C004ED7EE /* AudioPlayerRepeatOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerRepeatOff.png; sourceTree = "<group>"; };
+		C99ACE231208B34C004ED7EE /* AudioPlayerRepeatOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerRepeatOn.png; sourceTree = "<group>"; };
+		C99ACE241208B34C004ED7EE /* AudioPlayerRepeatOneOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerRepeatOneOn.png; sourceTree = "<group>"; };
+		C99ACE251208B34C004ED7EE /* AudioPlayerScrubberKnob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerScrubberKnob.png; sourceTree = "<group>"; };
+		C99ACE261208B34C004ED7EE /* AudioPlayerScrubberLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerScrubberLeft.png; sourceTree = "<group>"; };
+		C99ACE271208B34C004ED7EE /* AudioPlayerScrubberRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerScrubberRight.png; sourceTree = "<group>"; };
+		C99ACE281208B34C004ED7EE /* AudioPlayerShuffleOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerShuffleOff.png; sourceTree = "<group>"; };
+		C99ACE291208B34C004ED7EE /* AudioPlayerShuffleOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerShuffleOn.png; sourceTree = "<group>"; };
+		C99ACE2B1208B34C004ED7EE /* AudioPlayerVolumeKnob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerVolumeKnob.png; sourceTree = "<group>"; };
+		C99ACE2C1208B34C004ED7EE /* MDAudioFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDAudioFile.h; sourceTree = "<group>"; };
+		C99ACE2D1208B34C004ED7EE /* MDAudioFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDAudioFile.m; sourceTree = "<group>"; };
+		C99ACE2E1208B34C004ED7EE /* MDAudioPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDAudioPlayerController.h; sourceTree = "<group>"; };
+		C99ACE2F1208B34C004ED7EE /* MDAudioPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDAudioPlayerController.m; sourceTree = "<group>"; };
+		C9A1795C1208B5FE000E7E81 /* AudioPlayerTableBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerTableBackground.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				C99ACCD51208AE54004ED7EE /* AudioToolbox.framework in Frameworks */,
+				C99ACCD71208AE54004ED7EE /* AVFoundation.framework in Frameworks */,
+				C99ACD531208AE80004ED7EE /* QuartzCore.framework in Frameworks */,
+				C99ACD6D1208AE8C004ED7EE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
+				28C286E00D94DF7D0034E888 /* RootViewController.m */,
+				1D3623240D0F684500981E51 /* MDAudioPlayerSampleAppDelegate.h */,
+				1D3623250D0F684500981E51 /* MDAudioPlayerSampleAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* MDAudioPlayerSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				C99ACE191208B34C004ED7EE /* MDAudioPlayerController */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* MDAudioPlayerSample_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C99ACC5B1208ADC9004ED7EE /* 1.mp3 */,
+				C99ACC5C1208ADC9004ED7EE /* 2.mp3 */,
+				C99ACC5D1208ADC9004ED7EE /* 3.mp3 */,
+				28F335F01007B36200424DE2 /* RootViewController.xib */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* MDAudioPlayerSample-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				C99ACCD41208AE54004ED7EE /* AudioToolbox.framework */,
+				C99ACCD61208AE54004ED7EE /* AVFoundation.framework */,
+				C99ACD521208AE80004ED7EE /* QuartzCore.framework */,
+				C99ACD6C1208AE8C004ED7EE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C99ACE191208B34C004ED7EE /* MDAudioPlayerController */ = {
+			isa = PBXGroup;
+			children = (
+				C99ACE1A1208B34C004ED7EE /* Images */,
+				C99ACE2C1208B34C004ED7EE /* MDAudioFile.h */,
+				C99ACE2D1208B34C004ED7EE /* MDAudioFile.m */,
+				C99ACE2E1208B34C004ED7EE /* MDAudioPlayerController.h */,
+				C99ACE2F1208B34C004ED7EE /* MDAudioPlayerController.m */,
+			);
+			name = MDAudioPlayerController;
+			path = ../MDAudioPlayerController;
+			sourceTree = SOURCE_ROOT;
+		};
+		C99ACE1A1208B34C004ED7EE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C99ACE1B1208B34C004ED7EE /* AudioPlayerAlbumInfo.png */,
+				C99ACE1C1208B34C004ED7EE /* AudioPlayerBarBackground.png */,
+				C99ACE1D1208B34C004ED7EE /* AudioPlayerNextTrack.png */,
+				C99ACE1E1208B34C004ED7EE /* AudioPlayerNoArtwork.png */,
+				C99ACE1F1208B34C004ED7EE /* AudioPlayerPause.png */,
+				C99ACE201208B34C004ED7EE /* AudioPlayerPlay.png */,
+				C99ACE211208B34C004ED7EE /* AudioPlayerPrevTrack.png */,
+				C99ACE221208B34C004ED7EE /* AudioPlayerRepeatOff.png */,
+				C99ACE231208B34C004ED7EE /* AudioPlayerRepeatOn.png */,
+				C99ACE241208B34C004ED7EE /* AudioPlayerRepeatOneOn.png */,
+				C99ACE251208B34C004ED7EE /* AudioPlayerScrubberKnob.png */,
+				C99ACE261208B34C004ED7EE /* AudioPlayerScrubberLeft.png */,
+				C99ACE271208B34C004ED7EE /* AudioPlayerScrubberRight.png */,
+				C99ACE281208B34C004ED7EE /* AudioPlayerShuffleOff.png */,
+				C99ACE291208B34C004ED7EE /* AudioPlayerShuffleOn.png */,
+				C9A1795C1208B5FE000E7E81 /* AudioPlayerTableBackground.png */,
+				C99ACE2B1208B34C004ED7EE /* AudioPlayerVolumeKnob.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* MDAudioPlayerSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MDAudioPlayerSample" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MDAudioPlayerSample;
+			productName = MDAudioPlayerSample;
+			productReference = 1D6058910D05DD3D006BFB54 /* MDAudioPlayerSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MDAudioPlayerSample" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* MDAudioPlayerSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				28F335F11007B36200424DE2 /* RootViewController.xib in Resources */,
+				C99ACC5E1208ADC9004ED7EE /* 1.mp3 in Resources */,
+				C99ACC5F1208ADC9004ED7EE /* 2.mp3 in Resources */,
+				C99ACC601208ADC9004ED7EE /* 3.mp3 in Resources */,
+				C99ACE301208B34C004ED7EE /* AudioPlayerAlbumInfo.png in Resources */,
+				C99ACE311208B34C004ED7EE /* AudioPlayerBarBackground.png in Resources */,
+				C99ACE321208B34C004ED7EE /* AudioPlayerNextTrack.png in Resources */,
+				C99ACE331208B34C004ED7EE /* AudioPlayerNoArtwork.png in Resources */,
+				C99ACE341208B34C004ED7EE /* AudioPlayerPause.png in Resources */,
+				C99ACE351208B34C004ED7EE /* AudioPlayerPlay.png in Resources */,
+				C99ACE361208B34C004ED7EE /* AudioPlayerPrevTrack.png in Resources */,
+				C99ACE371208B34C004ED7EE /* AudioPlayerRepeatOff.png in Resources */,
+				C99ACE381208B34C004ED7EE /* AudioPlayerRepeatOn.png in Resources */,
+				C99ACE391208B34C004ED7EE /* AudioPlayerRepeatOneOn.png in Resources */,
+				C99ACE3A1208B34C004ED7EE /* AudioPlayerScrubberKnob.png in Resources */,
+				C99ACE3B1208B34C004ED7EE /* AudioPlayerScrubberLeft.png in Resources */,
+				C99ACE3C1208B34C004ED7EE /* AudioPlayerScrubberRight.png in Resources */,
+				C99ACE3D1208B34C004ED7EE /* AudioPlayerShuffleOff.png in Resources */,
+				C99ACE3E1208B34C004ED7EE /* AudioPlayerShuffleOn.png in Resources */,
+				C99ACE401208B34C004ED7EE /* AudioPlayerVolumeKnob.png in Resources */,
+				C9A1795D1208B5FE000E7E81 /* AudioPlayerTableBackground.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* MDAudioPlayerSampleAppDelegate.m in Sources */,
+				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
+				C99ACE411208B34C004ED7EE /* MDAudioFile.m in Sources */,
+				C99ACE421208B34C004ED7EE /* MDAudioPlayerController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MDAudioPlayerSample_Prefix.pch;
+				INFOPLIST_FILE = "MDAudioPlayerSample-Info.plist";
+				PRODUCT_NAME = MDAudioPlayerSample;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MDAudioPlayerSample_Prefix.pch;
+				INFOPLIST_FILE = "MDAudioPlayerSample-Info.plist";
+				PRODUCT_NAME = MDAudioPlayerSample;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MDAudioPlayerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MDAudioPlayerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

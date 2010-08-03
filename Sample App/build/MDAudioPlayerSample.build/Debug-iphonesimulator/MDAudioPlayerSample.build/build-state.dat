@@ -1,0 +1,1093 @@
+TMDAudioPlayerSample
+v7
+r0
+t302560981.315834
+cCheck dependencies
+cProcessInfoPlistFile "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app/Info.plist" MDAudioPlayerSample-Info.plist
+cCompileXIB "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/MainWindow.xib"
+cCompileXIB "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/RootViewController.xib"
+cCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/1.mp3 1.mp3
+cCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/2.mp3 2.mp3
+cCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/3.mp3 3.mp3
+cCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerAlbumInfo.png ../MDAudioPlayerController/Images/AudioPlayerAlbumInfo.png
+cCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerBarBackground.png ../MDAudioPlayerController/Images/AudioPlayerBarBackground.png
+cCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerNextTrack.png ../MDAudioPlayerController/Images/AudioPlayerNextTrack.png
+cCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerNoArtwork.png ../MDAudioPlayerController/Images/AudioPlayerNoArtwork.png
+cCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerPause.png ../MDAudioPlayerController/Images/AudioPlayerPause.png
+cCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerPlay.png ../MDAudioPlayerController/Images/AudioPlayerPlay.png
+cCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerPrevTrack.png ../MDAudioPlayerController/Images/AudioPlayerPrevTrack.png
+cCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerRepeatOff.png ../MDAudioPlayerController/Images/AudioPlayerRepeatOff.png
+cCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerRepeatOn.png ../MDAudioPlayerController/Images/AudioPlayerRepeatOn.png
+cCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerRepeatOneOn.png ../MDAudioPlayerController/Images/AudioPlayerRepeatOneOn.png
+cCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerScrubberKnob.png ../MDAudioPlayerController/Images/AudioPlayerScrubberKnob.png
+cCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerScrubberLeft.png ../MDAudioPlayerController/Images/AudioPlayerScrubberLeft.png
+cCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerScrubberRight.png ../MDAudioPlayerController/Images/AudioPlayerScrubberRight.png
+cCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerShuffleOff.png ../MDAudioPlayerController/Images/AudioPlayerShuffleOff.png
+cCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerShuffleOn.png ../MDAudioPlayerController/Images/AudioPlayerShuffleOn.png
+cCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerVolumeKnob.png ../MDAudioPlayerController/Images/AudioPlayerVolumeKnob.png
+cCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerTableBackground.png ../MDAudioPlayerController/Images/AudioPlayerTableBackground.png
+cProcessPCH /var/folders/13/136EvvN7GUSSUrsEPwbcSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MDAudioPlayerSample_Prefix-ftxhwljpdgidpohiyonzclffamur/MDAudioPlayerSample_Prefix.pch.gch MDAudioPlayerSample_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/Objects-normal/i386/main.o "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/Objects-normal/i386/MDAudioPlayerSampleAppDelegate.o "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/Classes/MDAudioPlayerSampleAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/Objects-normal/i386/RootViewController.o "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/Classes/RootViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/Objects-normal/i386/MDAudioFile.o "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/MDAudioFile.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/Objects-normal/i386/MDAudioPlayerController.o "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/MDAudioPlayerController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app/MDAudioPlayerSample" normal i386
+cGenerateDSYMFile "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app.dSYM" "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app/MDAudioPlayerSample"
+cTouch "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk
+c000000004C468A8C0000000000000110
+t1279691404
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004C4689F000000000000D51C0
+t1279691248
+s872896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004C4689EA0000000000000703
+t1279691242
+s1795
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004C4680B200000000001FF0F0
+t1279688882
+s2093296
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004C4680980000000000000A23
+t1279688856
+s2595
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C467A5F0000000000294890
+t1279687263
+s2705552
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C467A6A000000000029D580
+t1279687274
+s2741632
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C467A500000000000001466
+t1279687248
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004C46814800000000000000C4
+t1279689032
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004C4681E90000000000154DD0
+t1279689193
+s1396176
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C46895700000000000009CD
+t1279691095
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C4689E30000000001E21630
+t1279691235
+s31594032
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/Availability.h
+c000000004C4680D20000000000001A5C
+t1279688914
+s6748
+
+N/Users/Matt/Desktop/MDAudioPlayerController/MDAudioPlayerController/MDAudioFile.h
+c000000004C560829000000000000027B
+t1280706601
+s635
+i<Foundation/Foundation.h>
+i<AudioToolbox/AudioToolbox.h>
+
+N/Users/Matt/Desktop/MDAudioPlayerController/MDAudioPlayerController/MDAudioPlayerController.h
+c000000004C5735610000000000000E6F
+t1280783713
+s3695
+i<Foundation/Foundation.h>
+i<AVFoundation/AVFoundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../Images
+c000000004C587B9300000000000002A8
+t1280867219
+s680
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerAlbumInfo.png
+c000000004C23E07B000000000000027A
+t1277419643
+s634
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerBarBackground.png
+c000000004C25C0550000000000000087
+t1277542485
+s135
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerNextTrack.png
+c000000004C25C40C00000000000001A8
+t1277543436
+s424
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerNoArtwork.png
+c000000004C23E07B0000000000010ED4
+t1277419643
+s69332
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerPause.png
+c000000004C25C3F10000000000000072
+t1277543409
+s114
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerPlay.png
+c000000004C25C3EE000000000000023C
+t1277543406
+s572
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerPrevTrack.png
+c000000004C25C40700000000000001B5
+t1277543431
+s437
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerRepeatOff.png
+c000000004C5727D800000000000002C9
+t1280780248
+s713
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerRepeatOn.png
+c000000004C57282300000000000004D7
+t1280780323
+s1239
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerRepeatOneOn.png
+c000000004C5727DC00000000000004C4
+t1280780252
+s1220
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerScrubberKnob.png
+c000000004C57291C0000000000000E37
+t1280780572
+s3639
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerScrubberLeft.png
+c000000004C23E07B0000000000000C07
+t1277419643
+s3079
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerScrubberRight.png
+c000000004C23E07B0000000000000BBE
+t1277419643
+s3006
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerShuffleOff.png
+c000000004C5727EA00000000000002EB
+t1280780266
+s747
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerShuffleOn.png
+c000000004C5727EF00000000000004BF
+t1280780271
+s1215
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerTableBackground.png
+c000000004C587D880000000000005D66
+t1280867720
+s23910
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerTableBackground.png.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerVolumeKnob.png
+c000000004C2677B400000000000004D5
+t1277589428
+s1237
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/MDAudioFile.h
+c000000004C560829000000000000027B
+t1280706601
+s635
+i<Foundation/Foundation.h>
+i<AudioToolbox/AudioToolbox.h>
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/MDAudioFile.m
+c000000004C56EF7B00000000000010CA
+t1280765819
+s4298
+i"MDAudioFile.h"
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/MDAudioPlayerController.h
+c000000004C5735610000000000000E6F
+t1280783713
+s3695
+i<Foundation/Foundation.h>
+i<AVFoundation/AVFoundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/MDAudioPlayerController.m
+c000000004C587F4E00000000000088D6
+t1280868174
+s35030
+i"MDAudioPlayerController.h"
+i"MDAudioFile.h"
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/1.mp3
+c000000004C5875FC000000000069FFEE
+t1280865788
+s6946798
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/2.mp3
+c000000004C5875FC000000000069FFEE
+t1280865788
+s6946798
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/3.mp3
+c000000004C5875FC000000000069FFEE
+t1280865788
+s6946798
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioFile.png
+c000000004B38014D000000000000093F
+t1261961549
+s2367
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioPlayerAlbumInfo.png
+c000000004C23E07B000000000000027A
+t1277419643
+s634
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioPlayerBarBackground.png
+c000000004C25C0550000000000000087
+t1277542485
+s135
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioPlayerNextTrack.png
+c000000004C25C40C00000000000001A8
+t1277543436
+s424
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioPlayerNoArtwork.png
+c000000004C23E07B0000000000010ED4
+t1277419643
+s69332
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioPlayerPause.png
+c000000004C25C3F10000000000000072
+t1277543409
+s114
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioPlayerPlay.png
+c000000004C25C3EE000000000000023C
+t1277543406
+s572
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioPlayerPrevTrack.png
+c000000004C25C40700000000000001B5
+t1277543431
+s437
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioPlayerRepeatOff.png
+c000000004C5727D800000000000002C9
+t1280780248
+s713
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioPlayerRepeatOn.png
+c000000004C57282300000000000004D7
+t1280780323
+s1239
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioPlayerRepeatOneOn.png
+c000000004C5727DC00000000000004C4
+t1280780252
+s1220
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioPlayerScrubberKnob.png
+c000000004C57291C0000000000000E37
+t1280780572
+s3639
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioPlayerScrubberLeft.png
+c000000004C23E07B0000000000000C07
+t1277419643
+s3079
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioPlayerScrubberRight.png
+c000000004C23E07B0000000000000BBE
+t1277419643
+s3006
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioPlayerShuffleOff.png
+c000000004C5727EA00000000000002EB
+t1280780266
+s747
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioPlayerShuffleOn.png
+c000000004C5727EF00000000000004BF
+t1280780271
+s1215
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioPlayerTableBackground.png.png
+c000000004C582D500000000000005D66
+t1280847184
+s23910
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioPlayerVolumeKnob.png
+c000000004C2677B400000000000004D5
+t1277589428
+s1237
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/Classes/MDAudioPlayerSampleAppDelegate.h
+c000000004C58730900000000000001F7
+t1280865033
+s503
+i<UIKit/UIKit.h>
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/Classes/MDAudioPlayerSampleAppDelegate.m
+c000000004C5873090000000000000ACD
+t1280865033
+s2765
+i"MDAudioPlayerSampleAppDelegate.h"
+i"RootViewController.h"
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/Classes/RootViewController.h
+c000000004C5873D6000000000000014E
+t1280865238
+s334
+i<UIKit/UIKit.h>
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/Classes/RootViewController.m
+c000000004C587A24000000000000130D
+t1280866852
+s4877
+i"RootViewController.h"
+i"MDAudioFile.h"
+i"MDAudioPlayerController.h"
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/MDAudioFile.h
+c000000004C560829000000000000027B
+t1280706601
+s635
+i<Foundation/Foundation.h>
+i<AudioToolbox/AudioToolbox.h>
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/MDAudioFile.m
+c000000004C56EF7B00000000000010CA
+t1280765819
+s4298
+i"MDAudioFile.h"
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/MDAudioPlayerController.h
+c000000004C5735610000000000000E6F
+t1280783713
+s3695
+i<Foundation/Foundation.h>
+i<AVFoundation/AVFoundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/MDAudioPlayerController.m
+c000000004C587B510000000000008814
+t1280867153
+s34836
+i"MDAudioPlayerController.h"
+i"MDAudioFile.h"
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/MDAudioPlayerSample_Prefix.pch
+c000000004C5873090000000000000158
+t1280865033
+s344
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/MainWindow.xib
+c000000004C5873090000000000006024
+t1280865033
+s24612
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/RootViewController.xib
+c000000004C587309000000000000445E
+t1280865033
+s17502
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app
+t1280868181
+s952
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app.dSYM
+t1280868181
+s102
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app/1.mp3
+t1280867329
+s6946798
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app/2.mp3
+t1280867329
+s6946798
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app/3.mp3
+t1280867329
+s6946798
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioFile.png
+t1280866969
+s2367
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerAlbumInfo.png
+t1280867329
+s634
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerBarBackground.png
+t1280867329
+s135
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerNextTrack.png
+t1280867329
+s424
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerNoArtwork.png
+t1280867329
+s69332
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerPause.png
+t1280867329
+s114
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerPlay.png
+t1280867329
+s572
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerPrevTrack.png
+t1280867329
+s437
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerRepeatOff.png
+t1280867329
+s713
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerRepeatOn.png
+t1280867329
+s1239
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerRepeatOneOn.png
+t1280867329
+s1220
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerScrubberKnob.png
+t1280867329
+s3639
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerScrubberLeft.png
+t1280867329
+s3079
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerScrubberRight.png
+t1280867329
+s3006
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerShuffleOff.png
+t1280867329
+s747
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerShuffleOn.png
+t1280867329
+s1215
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerTableBackground.png
+t1280867983
+s23910
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerTableBackground.png.png
+t1280867329
+s23910
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerVolumeKnob.png
+t1280867329
+s1237
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app/Images
+t2
+s0
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app/Info.plist
+t1280867327
+s645
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app/MDAudioPlayerSample
+t1280868181
+s111476
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app/MainWindow.nib
+t1280867329
+s2468
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app/PkgInfo
+t1280867327
+s8
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app/RootViewController.nib
+t1280867329
+s1518
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/Objects-normal/i386/MDAudioFile.o
+t1280867332
+s23292
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/Objects-normal/i386/MDAudioPlayerController.o
+t1280868181
+s196748
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/Objects-normal/i386/MDAudioPlayerSample.LinkFileList
+c000000004C587BFF000000000000036C
+t1280867327
+s876
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/Objects-normal/i386/MDAudioPlayerSampleAppDelegate.o
+t1280867332
+s50132
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/Objects-normal/i386/RootViewController.o
+t1280867332
+s52492
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/Objects-normal/i386/main.o
+t1280867332
+s6336
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/main.m
+c000000004C5873090000000000000175
+t1280865033
+s373
+i<UIKit/UIKit.h>
+
+N/var/folders/13/136EvvN7GUSSUrsEPwbcSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MDAudioPlayerSample_Prefix-ftxhwljpdgidpohiyonzclffamur/MDAudioPlayerSample_Prefix.pch.gch
+t1280867331
+s15211536
+
+NMDAudioPlayerSample-Info.plist
+c000000004C587309000000000000038D
+t1280865033
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies302560980#302560980#0(0"0(0#1#0"8613620416#0"0#
+
+CCompileC build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/Objects-normal/i386/MDAudioFile.o "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/MDAudioFile.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s302560132.092093
+e302560132.195460
+r1
+xCompileC
+xbuild/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/Objects-normal/i386/MDAudioFile.o
+x/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/MDAudioFile.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@103"Compile /Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/MDAudioFile.m302560132#302560132#0(0"0(0#0#95"/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/MDAudioFile.m8643969408#2393"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/MDAudioPlayerSample-generated-files.hmap" "-I/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/MDAudioPlayerSample-own-target-headers.hmap" "-I/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/MDAudioPlayerSample-all-target-headers.hmap" -iquote "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/MDAudioPlayerSample-project-headers.hmap" "-F/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator" "-I/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/include" "-I/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/DerivedSources/i386" "-I/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/DerivedSources" -include /var/folders/13/136EvvN7GUSSUrsEPwbcSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MDAudioPlayerSample_Prefix-ftxhwljpdgidpohiyonzclffamur/MDAudioPlayerSample_Prefix.pch -c "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/MDAudioFile.m" -o "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/Objects-normal/i386/MDAudioFile.o"0#
+
+CCompileC build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/Objects-normal/i386/MDAudioFile.o "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/MDAudioFile.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s302559771.371848
+e302559771.460623
+r1
+xCompileC
+xbuild/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/Objects-normal/i386/MDAudioFile.o
+x/Users/Matt/Desktop/MDAudioPlayerController/Sample App/MDAudioFile.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/Matt/Desktop/MDAudioPlayerController/Sample App/MDAudioFile.m302559771#302559771#0(0"0(0#0#68"/Users/Matt/Desktop/MDAudioPlayerController/Sample App/MDAudioFile.m8646380192#2366"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/MDAudioPlayerSample-generated-files.hmap" "-I/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/MDAudioPlayerSample-own-target-headers.hmap" "-I/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/MDAudioPlayerSample-all-target-headers.hmap" -iquote "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/MDAudioPlayerSample-project-headers.hmap" "-F/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator" "-I/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/include" "-I/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/DerivedSources/i386" "-I/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/DerivedSources" -include /var/folders/13/136EvvN7GUSSUrsEPwbcSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MDAudioPlayerSample_Prefix-ftxhwljpdgidpohiyonzclffamur/MDAudioPlayerSample_Prefix.pch -c "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/MDAudioFile.m" -o "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/Objects-normal/i386/MDAudioFile.o"0#
+
+CCompileC build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/Objects-normal/i386/MDAudioPlayerController.o "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/MDAudioPlayerController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s302560980.918649
+e302560981.263519
+r1
+xCompileC
+xbuild/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/Objects-normal/i386/MDAudioPlayerController.o
+x/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/MDAudioPlayerController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@115"Compile /Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/MDAudioPlayerController.m302560980#302560981#0(0"0(0#0#107"/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/MDAudioPlayerController.m8615351392#2417"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/MDAudioPlayerSample-generated-files.hmap" "-I/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/MDAudioPlayerSample-own-target-headers.hmap" "-I/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/MDAudioPlayerSample-all-target-headers.hmap" -iquote "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/MDAudioPlayerSample-project-headers.hmap" "-F/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator" "-I/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/include" "-I/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/DerivedSources/i386" "-I/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/DerivedSources" -include /var/folders/13/136EvvN7GUSSUrsEPwbcSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MDAudioPlayerSample_Prefix-ftxhwljpdgidpohiyonzclffamur/MDAudioPlayerSample_Prefix.pch -c "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/MDAudioPlayerController.m" -o "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/Objects-normal/i386/MDAudioPlayerController.o"0#
+
+CCompileC build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/Objects-normal/i386/MDAudioPlayerController.o "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/MDAudioPlayerController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s302559771.460793
+e302559771.784352
+r1
+xCompileC
+xbuild/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/Objects-normal/i386/MDAudioPlayerController.o
+x/Users/Matt/Desktop/MDAudioPlayerController/Sample App/MDAudioPlayerController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/Matt/Desktop/MDAudioPlayerController/Sample App/MDAudioPlayerController.m302559771#302559771#0(0"0(0#0#80"/Users/Matt/Desktop/MDAudioPlayerController/Sample App/MDAudioPlayerController.m8634884224#2390"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/MDAudioPlayerSample-generated-files.hmap" "-I/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/MDAudioPlayerSample-own-target-headers.hmap" "-I/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/MDAudioPlayerSample-all-target-headers.hmap" -iquote "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/MDAudioPlayerSample-project-headers.hmap" "-F/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator" "-I/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/include" "-I/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/DerivedSources/i386" "-I/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/DerivedSources" -include /var/folders/13/136EvvN7GUSSUrsEPwbcSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MDAudioPlayerSample_Prefix-ftxhwljpdgidpohiyonzclffamur/MDAudioPlayerSample_Prefix.pch -c "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/MDAudioPlayerController.m" -o "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/Objects-normal/i386/MDAudioPlayerController.o"0#
+
+CCompileC build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/Objects-normal/i386/MDAudioPlayerSampleAppDelegate.o "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/Classes/MDAudioPlayerSampleAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s302560131.968204
+e302560132.091976
+r1
+xCompileC
+xbuild/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/Objects-normal/i386/MDAudioPlayerSampleAppDelegate.o
+x/Users/Matt/Desktop/MDAudioPlayerController/Sample App/Classes/MDAudioPlayerSampleAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@103"Compile /Users/Matt/Desktop/MDAudioPlayerController/Sample App/Classes/MDAudioPlayerSampleAppDelegate.m302560131#302560132#0(0"0(0#0#95"/Users/Matt/Desktop/MDAudioPlayerController/Sample App/Classes/MDAudioPlayerSampleAppDelegate.m8645116640#2412"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/MDAudioPlayerSample-generated-files.hmap" "-I/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/MDAudioPlayerSample-own-target-headers.hmap" "-I/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/MDAudioPlayerSample-all-target-headers.hmap" -iquote "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/MDAudioPlayerSample-project-headers.hmap" "-F/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator" "-I/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/include" "-I/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/DerivedSources/i386" "-I/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/DerivedSources" -include /var/folders/13/136EvvN7GUSSUrsEPwbcSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MDAudioPlayerSample_Prefix-ftxhwljpdgidpohiyonzclffamur/MDAudioPlayerSample_Prefix.pch -c "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/Classes/MDAudioPlayerSampleAppDelegate.m" -o "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/Objects-normal/i386/MDAudioPlayerSampleAppDelegate.o"0#
+
+CCompileC build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/Objects-normal/i386/RootViewController.o "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/Classes/RootViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s302560132.041111
+e302560132.291530
+r1
+xCompileC
+xbuild/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/Objects-normal/i386/RootViewController.o
+x/Users/Matt/Desktop/MDAudioPlayerController/Sample App/Classes/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/Matt/Desktop/MDAudioPlayerController/Sample App/Classes/RootViewController.m302560132#302560132#0(0"0(0#0#83"/Users/Matt/Desktop/MDAudioPlayerController/Sample App/Classes/RootViewController.m8644803968#2388"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/MDAudioPlayerSample-generated-files.hmap" "-I/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/MDAudioPlayerSample-own-target-headers.hmap" "-I/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/MDAudioPlayerSample-all-target-headers.hmap" -iquote "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/MDAudioPlayerSample-project-headers.hmap" "-F/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator" "-I/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/include" "-I/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/DerivedSources/i386" "-I/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/DerivedSources" -include /var/folders/13/136EvvN7GUSSUrsEPwbcSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MDAudioPlayerSample_Prefix-ftxhwljpdgidpohiyonzclffamur/MDAudioPlayerSample_Prefix.pch -c "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/Classes/RootViewController.m" -o "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/Objects-normal/i386/RootViewController.o"0#
+
+CCompileC build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/Objects-normal/i386/main.o "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s302560131.967250
+e302560132.041001
+r1
+xCompileC
+xbuild/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/Objects-normal/i386/main.o
+x/Users/Matt/Desktop/MDAudioPlayerController/Sample App/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/Matt/Desktop/MDAudioPlayerController/Sample App/main.m302560131#302560132#0(0"0(0#0#61"/Users/Matt/Desktop/MDAudioPlayerController/Sample App/main.m8645752320#2352"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/MDAudioPlayerSample-generated-files.hmap" "-I/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/MDAudioPlayerSample-own-target-headers.hmap" "-I/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/MDAudioPlayerSample-all-target-headers.hmap" -iquote "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/MDAudioPlayerSample-project-headers.hmap" "-F/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator" "-I/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/include" "-I/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/DerivedSources/i386" "-I/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/DerivedSources" -include /var/folders/13/136EvvN7GUSSUrsEPwbcSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MDAudioPlayerSample_Prefix-ftxhwljpdgidpohiyonzclffamur/MDAudioPlayerSample_Prefix.pch -c "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/main.m" -o "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/Objects-normal/i386/main.o"0#
+
+CCompileXIB "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/MainWindow.xib"
+s302560127.945823
+e302560129.812298
+r1
+xCompileXIB
+x/Users/Matt/Desktop/MDAudioPlayerController/Sample App/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib302560127#302560129#0(0"0(0#0#69"/Users/Matt/Desktop/MDAudioPlayerController/Sample App/MainWindow.xib8637184544#636"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app/MainWindow.nib" "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/RootViewController.xib"
+s302560127.946603
+e302560129.830791
+r1
+xCompileXIB
+x/Users/Matt/Desktop/MDAudioPlayerController/Sample App/RootViewController.xib
+lSLF07#2@33"CompileXIB RootViewController.xib302560127#302560129#0(0"0(0#0#77"/Users/Matt/Desktop/MDAudioPlayerController/Sample App/RootViewController.xib8636196928#652"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app/RootViewController.nib" "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/RootViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/1.mp3 1.mp3
+s302560129.812636
+e302560130.132020
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MDAudioPlayerSample.app/1.mp3
+x1.mp3
+lSLF07#2@10"Copy 1.mp3302560129#302560130#0(0"0(0#0#60"/Users/Matt/Desktop/MDAudioPlayerController/Sample App/1.mp38648922848#515"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/1.mp3" "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app"0#
+
+CCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/2.mp3 2.mp3
+s302560129.814338
+e302560130.233274
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MDAudioPlayerSample.app/2.mp3
+x2.mp3
+lSLF07#2@10"Copy 2.mp3302560129#302560130#0(0"0(0#0#60"/Users/Matt/Desktop/MDAudioPlayerController/Sample App/2.mp38648775872#515"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/2.mp3" "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app"0#
+
+CCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/3.mp3 3.mp3
+s302560129.818716
+e302560130.087925
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MDAudioPlayerSample.app/3.mp3
+x3.mp3
+lSLF07#2@10"Copy 3.mp3302560129#302560130#0(0"0(0#0#60"/Users/Matt/Desktop/MDAudioPlayerController/Sample App/3.mp38646355552#515"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/3.mp3" "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app"0#
+
+CCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioFile.png AudioFile.png
+s302559769.470190
+e302559769.499052
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioFile.png
+xAudioFile.png
+lSLF07#2@18"Copy AudioFile.png302559769#302559769#0(0"0(0#0#68"/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioFile.png8646368960#523"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioFile.png" "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app"0#
+
+CCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerAlbumInfo.png ../MDAudioPlayerController/Images/AudioPlayerAlbumInfo.png
+s302560129.821169
+e302560129.887174
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerAlbumInfo.png
+x../MDAudioPlayerController/Images/AudioPlayerAlbumInfo.png
+lSLF07#2@63"Copy ../MDAudioPlayerController/Images/AudioPlayerAlbumInfo.png302560129#302560129#0(0"0(0#0#113"/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerAlbumInfo.png8643039008#568"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerAlbumInfo.png" "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app"0#
+
+CCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerAlbumInfo.png AudioPlayerAlbumInfo.png
+s302559769.471757
+e302559769.506415
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerAlbumInfo.png
+xAudioPlayerAlbumInfo.png
+lSLF07#2@29"Copy AudioPlayerAlbumInfo.png302559769#302559769#0(0"0(0#0#79"/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioPlayerAlbumInfo.png8644666944#534"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioPlayerAlbumInfo.png" "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app"0#
+
+CCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerBarBackground.png ../MDAudioPlayerController/Images/AudioPlayerBarBackground.png
+s302560129.822760
+e302560129.937843
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerBarBackground.png
+x../MDAudioPlayerController/Images/AudioPlayerBarBackground.png
+lSLF07#2@67"Copy ../MDAudioPlayerController/Images/AudioPlayerBarBackground.png302560129#302560129#0(0"0(0#0#117"/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerBarBackground.png8635932544#572"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerBarBackground.png" "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app"0#
+
+CCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerBarBackground.png AudioPlayerBarBackground.png
+s302559769.473430
+e302559769.506537
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerBarBackground.png
+xAudioPlayerBarBackground.png
+lSLF07#2@33"Copy AudioPlayerBarBackground.png302559769#302559769#0(0"0(0#0#83"/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioPlayerBarBackground.png8645985632#538"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioPlayerBarBackground.png" "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app"0#
+
+CCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerNextTrack.png ../MDAudioPlayerController/Images/AudioPlayerNextTrack.png
+s302560129.824280
+e302560129.892331
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerNextTrack.png
+x../MDAudioPlayerController/Images/AudioPlayerNextTrack.png
+lSLF07#2@63"Copy ../MDAudioPlayerController/Images/AudioPlayerNextTrack.png302560129#302560129#0(0"0(0#0#113"/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerNextTrack.png8635609728#568"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerNextTrack.png" "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app"0#
+
+CCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerNextTrack.png AudioPlayerNextTrack.png
+s302559769.474221
+e302559769.506636
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerNextTrack.png
+xAudioPlayerNextTrack.png
+lSLF07#2@29"Copy AudioPlayerNextTrack.png302559769#302559769#0(0"0(0#0#79"/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioPlayerNextTrack.png8645445088#534"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioPlayerNextTrack.png" "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app"0#
+
+CCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerNoArtwork.png ../MDAudioPlayerController/Images/AudioPlayerNoArtwork.png
+s302560129.825795
+e302560129.904157
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerNoArtwork.png
+x../MDAudioPlayerController/Images/AudioPlayerNoArtwork.png
+lSLF07#2@63"Copy ../MDAudioPlayerController/Images/AudioPlayerNoArtwork.png302560129#302560129#0(0"0(0#0#113"/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerNoArtwork.png8634751200#568"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerNoArtwork.png" "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app"0#
+
+CCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerNoArtwork.png AudioPlayerNoArtwork.png
+s302559769.474850
+e302559769.521834
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerNoArtwork.png
+xAudioPlayerNoArtwork.png
+lSLF07#2@29"Copy AudioPlayerNoArtwork.png302559769#302559769#0(0"0(0#0#79"/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioPlayerNoArtwork.png8642434208#534"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioPlayerNoArtwork.png" "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app"0#
+
+CCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerPause.png ../MDAudioPlayerController/Images/AudioPlayerPause.png
+s302560129.827339
+e302560129.900110
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerPause.png
+x../MDAudioPlayerController/Images/AudioPlayerPause.png
+lSLF07#2@59"Copy ../MDAudioPlayerController/Images/AudioPlayerPause.png302560129#302560129#0(0"0(0#0#109"/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerPause.png8645381408#564"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerPause.png" "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app"0#
+
+CCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerPause.png AudioPlayerPause.png
+s302559769.477524
+e302559769.521940
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerPause.png
+xAudioPlayerPause.png
+lSLF07#2@25"Copy AudioPlayerPause.png302559769#302559769#0(0"0(0#0#75"/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioPlayerPause.png8634939136#530"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioPlayerPause.png" "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app"0#
+
+CCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerPlay.png ../MDAudioPlayerController/Images/AudioPlayerPlay.png
+s302560129.829017
+e302560129.888663
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerPlay.png
+x../MDAudioPlayerController/Images/AudioPlayerPlay.png
+lSLF07#2@58"Copy ../MDAudioPlayerController/Images/AudioPlayerPlay.png302560129#302560129#0(0"0(0#0#108"/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerPlay.png8644927616#563"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerPlay.png" "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app"0#
+
+CCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerPlay.png AudioPlayerPlay.png
+s302559769.499152
+e302559769.557716
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerPlay.png
+xAudioPlayerPlay.png
+lSLF07#2@24"Copy AudioPlayerPlay.png302559769#302559769#0(0"0(0#0#74"/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioPlayerPlay.png8643023584#529"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioPlayerPlay.png" "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app"0#
+
+CCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerPrevTrack.png ../MDAudioPlayerController/Images/AudioPlayerPrevTrack.png
+s302560129.830855
+e302560129.931242
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerPrevTrack.png
+x../MDAudioPlayerController/Images/AudioPlayerPrevTrack.png
+lSLF07#2@63"Copy ../MDAudioPlayerController/Images/AudioPlayerPrevTrack.png302560129#302560129#0(0"0(0#0#113"/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerPrevTrack.png8644679488#568"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerPrevTrack.png" "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app"0#
+
+CCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerPrevTrack.png AudioPlayerPrevTrack.png
+s302559769.506705
+e302559769.582118
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerPrevTrack.png
+xAudioPlayerPrevTrack.png
+lSLF07#2@29"Copy AudioPlayerPrevTrack.png302559769#302559769#0(0"0(0#0#79"/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioPlayerPrevTrack.png8645550112#534"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioPlayerPrevTrack.png" "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app"0#
+
+CCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerRepeatOff.png ../MDAudioPlayerController/Images/AudioPlayerRepeatOff.png
+s302560129.887278
+e302560129.896103
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerRepeatOff.png
+x../MDAudioPlayerController/Images/AudioPlayerRepeatOff.png
+lSLF07#2@63"Copy ../MDAudioPlayerController/Images/AudioPlayerRepeatOff.png302560129#302560129#0(0"0(0#0#113"/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerRepeatOff.png8648818624#568"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerRepeatOff.png" "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app"0#
+
+CCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerRepeatOff.png AudioPlayerRepeatOff.png
+s302559769.522000
+e302559769.535854
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerRepeatOff.png
+xAudioPlayerRepeatOff.png
+lSLF07#2@29"Copy AudioPlayerRepeatOff.png302559769#302559769#0(0"0(0#0#79"/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioPlayerRepeatOff.png8645401984#534"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioPlayerRepeatOff.png" "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app"0#
+
+CCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerRepeatOn.png ../MDAudioPlayerController/Images/AudioPlayerRepeatOn.png
+s302560129.888723
+e302560129.909429
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerRepeatOn.png
+x../MDAudioPlayerController/Images/AudioPlayerRepeatOn.png
+lSLF07#2@62"Copy ../MDAudioPlayerController/Images/AudioPlayerRepeatOn.png302560129#302560129#0(0"0(0#0#112"/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerRepeatOn.png8647513184#567"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerRepeatOn.png" "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app"0#
+
+CCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerRepeatOn.png AudioPlayerRepeatOn.png
+s302559769.516107
+e302559769.533459
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerRepeatOn.png
+xAudioPlayerRepeatOn.png
+lSLF07#2@28"Copy AudioPlayerRepeatOn.png302559769#302559769#0(0"0(0#0#78"/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioPlayerRepeatOn.png8642412448#533"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioPlayerRepeatOn.png" "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app"0#
+
+CCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerRepeatOneOn.png ../MDAudioPlayerController/Images/AudioPlayerRepeatOneOn.png
+s302560129.892401
+e302560129.925589
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerRepeatOneOn.png
+x../MDAudioPlayerController/Images/AudioPlayerRepeatOneOn.png
+lSLF07#2@65"Copy ../MDAudioPlayerController/Images/AudioPlayerRepeatOneOn.png302560129#302560129#0(0"0(0#0#115"/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerRepeatOneOn.png8645598560#570"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerRepeatOneOn.png" "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app"0#
+
+CCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerRepeatOneOn.png AudioPlayerRepeatOneOn.png
+s302559769.518836
+e302559769.572716
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerRepeatOneOn.png
+xAudioPlayerRepeatOneOn.png
+lSLF07#2@31"Copy AudioPlayerRepeatOneOn.png302559769#302559769#0(0"0(0#0#81"/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioPlayerRepeatOneOn.png8644806080#536"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioPlayerRepeatOneOn.png" "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app"0#
+
+CCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerScrubberKnob.png ../MDAudioPlayerController/Images/AudioPlayerScrubberKnob.png
+s302560129.896170
+e302560129.934176
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerScrubberKnob.png
+x../MDAudioPlayerController/Images/AudioPlayerScrubberKnob.png
+lSLF07#2@66"Copy ../MDAudioPlayerController/Images/AudioPlayerScrubberKnob.png302560129#302560129#0(0"0(0#0#116"/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerScrubberKnob.png8644437216#571"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerScrubberKnob.png" "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app"0#
+
+CCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerScrubberKnob.png AudioPlayerScrubberKnob.png
+s302559769.523845
+e302559769.582311
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerScrubberKnob.png
+xAudioPlayerScrubberKnob.png
+lSLF07#2@32"Copy AudioPlayerScrubberKnob.png302559769#302559769#0(0"0(0#0#82"/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioPlayerScrubberKnob.png8644558688#537"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioPlayerScrubberKnob.png" "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app"0#
+
+CCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerScrubberLeft.png ../MDAudioPlayerController/Images/AudioPlayerScrubberLeft.png
+s302560129.900192
+e302560129.919501
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerScrubberLeft.png
+x../MDAudioPlayerController/Images/AudioPlayerScrubberLeft.png
+lSLF07#2@66"Copy ../MDAudioPlayerController/Images/AudioPlayerScrubberLeft.png302560129#302560129#0(0"0(0#0#116"/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerScrubberLeft.png8642942912#571"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerScrubberLeft.png" "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app"0#
+
+CCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerScrubberLeft.png AudioPlayerScrubberLeft.png
+s302559769.533821
+e302559769.582215
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerScrubberLeft.png
+xAudioPlayerScrubberLeft.png
+lSLF07#2@32"Copy AudioPlayerScrubberLeft.png302559769#302559769#0(0"0(0#0#82"/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioPlayerScrubberLeft.png8645919040#537"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioPlayerScrubberLeft.png" "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app"0#
+
+CCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerScrubberRight.png ../MDAudioPlayerController/Images/AudioPlayerScrubberRight.png
+s302560129.904232
+e302560129.923083
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerScrubberRight.png
+x../MDAudioPlayerController/Images/AudioPlayerScrubberRight.png
+lSLF07#2@67"Copy ../MDAudioPlayerController/Images/AudioPlayerScrubberRight.png302560129#302560129#0(0"0(0#0#117"/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerScrubberRight.png8635897408#572"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerScrubberRight.png" "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app"0#
+
+CCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerScrubberRight.png AudioPlayerScrubberRight.png
+s302559769.535920
+e302559769.572829
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerScrubberRight.png
+xAudioPlayerScrubberRight.png
+lSLF07#2@33"Copy AudioPlayerScrubberRight.png302559769#302559769#0(0"0(0#0#83"/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioPlayerScrubberRight.png8645143392#538"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioPlayerScrubberRight.png" "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app"0#
+
+CCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerShuffleOff.png ../MDAudioPlayerController/Images/AudioPlayerShuffleOff.png
+s302560129.909528
+e302560129.917071
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerShuffleOff.png
+x../MDAudioPlayerController/Images/AudioPlayerShuffleOff.png
+lSLF07#2@64"Copy ../MDAudioPlayerController/Images/AudioPlayerShuffleOff.png302560129#302560129#0(0"0(0#0#114"/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerShuffleOff.png8634745344#569"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerShuffleOff.png" "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app"0#
+
+CCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerShuffleOff.png AudioPlayerShuffleOff.png
+s302559769.572897
+e302559769.584976
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerShuffleOff.png
+xAudioPlayerShuffleOff.png
+lSLF07#2@30"Copy AudioPlayerShuffleOff.png302559769#302559769#0(0"0(0#0#80"/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioPlayerShuffleOff.png8642991904#535"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioPlayerShuffleOff.png" "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app"0#
+
+CCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerShuffleOn.png ../MDAudioPlayerController/Images/AudioPlayerShuffleOn.png
+s302560129.917151
+e302560129.925696
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerShuffleOn.png
+x../MDAudioPlayerController/Images/AudioPlayerShuffleOn.png
+lSLF07#2@63"Copy ../MDAudioPlayerController/Images/AudioPlayerShuffleOn.png302560129#302560129#0(0"0(0#0#113"/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerShuffleOn.png8636573440#568"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerShuffleOn.png" "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app"0#
+
+CCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerShuffleOn.png AudioPlayerShuffleOn.png
+s302559769.557793
+e302559769.582020
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerShuffleOn.png
+xAudioPlayerShuffleOn.png
+lSLF07#2@29"Copy AudioPlayerShuffleOn.png302559769#302559769#0(0"0(0#0#79"/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioPlayerShuffleOn.png8644706048#534"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioPlayerShuffleOn.png" "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app"0#
+
+CCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerTableBackground.png ../MDAudioPlayerController/Images/AudioPlayerTableBackground.png
+s302560783.570622
+e302560783.576983
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerTableBackground.png
+x../MDAudioPlayerController/Images/AudioPlayerTableBackground.png
+lSLF07#2@69"Copy ../MDAudioPlayerController/Images/AudioPlayerTableBackground.png302560783#302560783#0(0"0(0#0#119"/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerTableBackground.png8615033152#574"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerTableBackground.png" "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app"0#
+
+CCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerTableBackground.png.png ../MDAudioPlayerController/Images/AudioPlayerTableBackground.png.png
+s302560129.919566
+e302560129.929125
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerTableBackground.png.png
+x../MDAudioPlayerController/Images/AudioPlayerTableBackground.png.png
+lSLF07#2@73"Copy ../MDAudioPlayerController/Images/AudioPlayerTableBackground.png.png302560129#302560129#0(0"0(0#0#123"/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerTableBackground.png.png8645480704#578"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerTableBackground.png.png" "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app"0#
+
+CCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerTableBackground.png.png AudioPlayerTableBackground.png.png
+s302559769.580077
+e302559769.586209
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerTableBackground.png.png
+xAudioPlayerTableBackground.png.png
+lSLF07#2@39"Copy AudioPlayerTableBackground.png.png302559769#302559769#0(0"0(0#0#89"/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioPlayerTableBackground.png.png8642452192#544"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioPlayerTableBackground.png.png" "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app"0#
+
+CCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerVolumeKnob.png ../MDAudioPlayerController/Images/AudioPlayerVolumeKnob.png
+s302560129.923263
+e302560129.929296
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerVolumeKnob.png
+x../MDAudioPlayerController/Images/AudioPlayerVolumeKnob.png
+lSLF07#2@64"Copy ../MDAudioPlayerController/Images/AudioPlayerVolumeKnob.png302560129#302560129#0(0"0(0#0#114"/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerVolumeKnob.png8644653312#569"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/../MDAudioPlayerController/Images/AudioPlayerVolumeKnob.png" "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app"0#
+
+CCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerVolumeKnob.png AudioPlayerVolumeKnob.png
+s302559769.582364
+e302559769.588429
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MDAudioPlayerSample.app/AudioPlayerVolumeKnob.png
+xAudioPlayerVolumeKnob.png
+lSLF07#2@30"Copy AudioPlayerVolumeKnob.png302559769#302559769#0(0"0(0#0#80"/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioPlayerVolumeKnob.png8643869824#535"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/AudioPlayerVolumeKnob.png" "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app"0#
+
+CCpResource build/Debug-iphonesimulator/MDAudioPlayerSample.app/Images ../Images
+r0
+
+CGenerateDSYMFile "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app.dSYM" "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app/MDAudioPlayerSample"
+s302560981.293910
+e302560981.313577
+r1
+xGenerateDSYMFile
+x/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app.dSYM
+x/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app/MDAudioPlayerSample
+lSLF07#2@145"GenerateDSYMFile build/Debug-iphonesimulator/MDAudioPlayerSample.app.dSYM build/Debug-iphonesimulator/MDAudioPlayerSample.app/MDAudioPlayerSample302560981#302560981#0(0"0(0#0#126"/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app/MDAudioPlayerSample8616690656#473"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app/MDAudioPlayerSample" -o "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app.dSYM"0#
+
+CLd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app/MDAudioPlayerSample" normal i386
+s302560981.263606
+e302560981.293812
+r1
+xLd
+x/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app/MDAudioPlayerSample
+xnormal
+xi386
+lSLF07#2@131"Link /Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app/MDAudioPlayerSample302560981#302560981#0(0"0(0#0#0"8616819168#1120"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk "-L/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator" "-F/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator" -filelist "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/Objects-normal/i386/MDAudioPlayerSample.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework AudioToolbox -framework AVFoundation -framework QuartzCore -framework CoreGraphics -o "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app/MDAudioPlayerSample"0#
+
+CProcessInfoPlistFile "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app/Info.plist" MDAudioPlayerSample-Info.plist
+s302560127.940736
+e302560127.945744
+r1
+xProcessInfoPlistFile
+x/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app/Info.plist
+xMDAudioPlayerSample-Info.plist
+lSLF07#2@38"Process MDAudioPlayerSample-Info.plist302560127#302560127#0(0"0(0#0#85"/Users/Matt/Desktop/MDAudioPlayerController/Sample App/MDAudioPlayerSample-Info.plist8642891936#569"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility MDAudioPlayerSample-Info.plist -genpkginfo "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app/Info.plist"0#
+
+CProcessPCH /var/folders/13/136EvvN7GUSSUrsEPwbcSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MDAudioPlayerSample_Prefix-ftxhwljpdgidpohiyonzclffamur/MDAudioPlayerSample_Prefix.pch.gch MDAudioPlayerSample_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s302560130.233421
+e302560131.967082
+r1
+xProcessPCH
+x/var/folders/13/136EvvN7GUSSUrsEPwbcSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MDAudioPlayerSample_Prefix-ftxhwljpdgidpohiyonzclffamur/MDAudioPlayerSample_Prefix.pch.gch
+xMDAudioPlayerSample_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@41"Precompile MDAudioPlayerSample_Prefix.pch302560130#302560131#0(0"0(0#0#85"/Users/Matt/Desktop/MDAudioPlayerController/Sample App/MDAudioPlayerSample_Prefix.pch8644520864#2214"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/MDAudioPlayerSample-generated-files.hmap" "-I/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/MDAudioPlayerSample-own-target-headers.hmap" "-I/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/MDAudioPlayerSample-all-target-headers.hmap" -iquote "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/MDAudioPlayerSample-project-headers.hmap" "-F/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator" "-I/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/include" "-I/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/DerivedSources/i386" "-I/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphonesimulator/MDAudioPlayerSample.build/DerivedSources" -c "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/MDAudioPlayerSample_Prefix.pch" -o /var/folders/13/136EvvN7GUSSUrsEPwbcSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MDAudioPlayerSample_Prefix-ftxhwljpdgidpohiyonzclffamur/MDAudioPlayerSample_Prefix.pch.gch0#
+
+CTouch "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app"
+s302560981.313658
+e302560981.315805
+r1
+xTouch
+x/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app
+lSLF07#2@112"Touch /Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app302560981#302560981#0(0"0(0#0#0"8616373632#326"    cd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphonesimulator/MDAudioPlayerSample.app"0#
+

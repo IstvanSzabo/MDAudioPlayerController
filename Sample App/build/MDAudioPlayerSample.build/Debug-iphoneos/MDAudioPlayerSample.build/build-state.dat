@@ -1,0 +1,377 @@
+TMDAudioPlayerSample
+v7
+r1
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk
+c000000004C496A9B0000000000000110
+t1279879835
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist
+c000000004C466BDC00000000000001A7
+t1279683548
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+c000000004C466BDC00000000000001E5
+t1279683548
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004C468C540000000000000703
+t1279691860
+s1795
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004C46807B0000000000000A23
+t1279688827
+s2595
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C467BD30000000000345ED0
+t1279687635
+s3432144
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C467C3A00000000003E1EF0
+t1279687738
+s4071152
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C467C130000000000001466
+t1279687699
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004C46813000000000000000C4
+t1279689008
+s196
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C4689DA00000000000009CD
+t1279691226
+s2509
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C468AD20000000002EBC000
+t1279691474
+s49004544
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/Availability.h
+c000000004C4680BD0000000000001A5C
+t1279688893
+s6748
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/1.mp3
+c000000004C5875FC000000000069FFEE
+t1280865788
+s6946798
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/2.mp3
+c000000004C5875FC000000000069FFEE
+t1280865788
+s6946798
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/3.mp3
+c000000004C5875FC000000000069FFEE
+t1280865788
+s6946798
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/Classes/MDAudioPlayerSampleAppDelegate.h
+c000000004C58730900000000000001F7
+t1280865033
+s503
+i<UIKit/UIKit.h>
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/Classes/MDAudioPlayerSampleAppDelegate.m
+c000000004C5873090000000000000ACD
+t1280865033
+s2765
+i"MDAudioPlayerSampleAppDelegate.h"
+i"RootViewController.h"
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/Classes/RootViewController.h
+c000000004C5873D6000000000000014E
+t1280865238
+s334
+i<UIKit/UIKit.h>
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/Classes/RootViewController.m
+c000000004C5875A200000000000012B1
+t1280865698
+s4785
+i"RootViewController.h"
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/MDAudioFile.h
+c000000004C560829000000000000027B
+t1280706601
+s635
+i<Foundation/Foundation.h>
+i<AudioToolbox/AudioToolbox.h>
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/MDAudioFile.m
+c000000004C56EF7B00000000000010CA
+t1280765819
+s4298
+i"MDAudioFile.h"
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/MDAudioPlayerController.h
+c000000004C5735610000000000000E6F
+t1280783713
+s3695
+i<Foundation/Foundation.h>
+i<AVFoundation/AVFoundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/MDAudioPlayerController.m
+c000000004C584EBF000000000000883E
+t1280855743
+s34878
+i"MDAudioPlayerController.h"
+i"MDAudioFile.h"
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/MDAudioPlayerSample_Prefix.pch
+c000000004C5873090000000000000158
+t1280865033
+s344
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/MainWindow.xib
+c000000004C5873090000000000006024
+t1280865033
+s24612
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/RootViewController.xib
+c000000004C587309000000000000445E
+t1280865033
+s17502
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphoneos/MDAudioPlayerSample.app
+t2
+s0
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphoneos/MDAudioPlayerSample.app.dSYM
+t2
+s0
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphoneos/MDAudioPlayerSample.app/1.mp3
+t2
+s0
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphoneos/MDAudioPlayerSample.app/2.mp3
+t2
+s0
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphoneos/MDAudioPlayerSample.app/3.mp3
+t2
+s0
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphoneos/MDAudioPlayerSample.app/Info.plist
+t2
+s0
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphoneos/MDAudioPlayerSample.app/MDAudioPlayerSample
+t2
+s0
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphoneos/MDAudioPlayerSample.app/MainWindow.nib
+t2
+s0
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphoneos/MDAudioPlayerSample.app/PkgInfo
+t2
+s0
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphoneos/MDAudioPlayerSample.app/ResourceRules.plist
+t2
+s0
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphoneos/MDAudioPlayerSample.app/RootViewController.nib
+t2
+s0
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphoneos/MDAudioPlayerSample.app/embedded.mobileprovision
+t2
+s0
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphoneos/MDAudioPlayerSample.app/sample.m4a
+t2
+s0
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphoneos/MDAudioPlayerSample.build/MDAudioPlayerSample.xcent
+t2
+s0
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphoneos/MDAudioPlayerSample.build/Objects-normal/armv6/MDAudioFile.o
+t2
+s0
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphoneos/MDAudioPlayerSample.build/Objects-normal/armv6/MDAudioPlayerController.o
+t2
+s0
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphoneos/MDAudioPlayerSample.build/Objects-normal/armv6/MDAudioPlayerSample
+t2
+s0
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphoneos/MDAudioPlayerSample.build/Objects-normal/armv6/MDAudioPlayerSample.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphoneos/MDAudioPlayerSample.build/Objects-normal/armv6/MDAudioPlayerSampleAppDelegate.o
+t2
+s0
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphoneos/MDAudioPlayerSample.build/Objects-normal/armv6/RootViewController.o
+t2
+s0
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphoneos/MDAudioPlayerSample.build/Objects-normal/armv6/main.o
+t2
+s0
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphoneos/MDAudioPlayerSample.build/Objects-normal/armv7/MDAudioFile.o
+t2
+s0
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphoneos/MDAudioPlayerSample.build/Objects-normal/armv7/MDAudioPlayerController.o
+t2
+s0
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphoneos/MDAudioPlayerSample.build/Objects-normal/armv7/MDAudioPlayerSample
+t2
+s0
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphoneos/MDAudioPlayerSample.build/Objects-normal/armv7/MDAudioPlayerSample.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphoneos/MDAudioPlayerSample.build/Objects-normal/armv7/MDAudioPlayerSampleAppDelegate.o
+t2
+s0
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphoneos/MDAudioPlayerSample.build/Objects-normal/armv7/RootViewController.o
+t2
+s0
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphoneos/MDAudioPlayerSample.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/main.m
+c000000004C5873090000000000000175
+t1280865033
+s373
+i<UIKit/UIKit.h>
+
+N/Users/Matt/Desktop/MDAudioPlayerController/Sample App/sample.m4a
+c000000004935AE69000000000000B584
+t1228254825
+s46468
+
+N/Users/Matt/Library/MobileDevice/Provisioning Profiles/B6D1DC03-2F36-4007-A8BD-741994396061.mobileprovision
+c000000004C55EA300000000000001C82
+t1280698928
+s7298
+
+N/var/folders/13/136EvvN7GUSSUrsEPwbcSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MDAudioPlayerSample_Prefix-ceqtfhoqmhqmbvflgbqlgwcgvwab/MDAudioPlayerSample_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/13/136EvvN7GUSSUrsEPwbcSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MDAudioPlayerSample_Prefix-fydjfhtbhgmlambikmaowiicldqr/MDAudioPlayerSample_Prefix.pch.gch
+t2
+s0
+
+NMDAudioPlayerSample-Info.plist
+c000000004C587309000000000000038D
+t1280865033
+s909
+
+CCodeSign "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphoneos/MDAudioPlayerSample.app"
+r0
+
+CCompileC build/MDAudioPlayerSample.build/Debug-iphoneos/MDAudioPlayerSample.build/Objects-normal/armv6/MDAudioFile.o "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/MDAudioFile.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/MDAudioPlayerSample.build/Debug-iphoneos/MDAudioPlayerSample.build/Objects-normal/armv6/MDAudioPlayerController.o "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/MDAudioPlayerController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/MDAudioPlayerSample.build/Debug-iphoneos/MDAudioPlayerSample.build/Objects-normal/armv6/MDAudioPlayerSampleAppDelegate.o "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/Classes/MDAudioPlayerSampleAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/MDAudioPlayerSample.build/Debug-iphoneos/MDAudioPlayerSample.build/Objects-normal/armv6/RootViewController.o "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/Classes/RootViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/MDAudioPlayerSample.build/Debug-iphoneos/MDAudioPlayerSample.build/Objects-normal/armv6/main.o "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/MDAudioPlayerSample.build/Debug-iphoneos/MDAudioPlayerSample.build/Objects-normal/armv7/MDAudioFile.o "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/MDAudioFile.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/MDAudioPlayerSample.build/Debug-iphoneos/MDAudioPlayerSample.build/Objects-normal/armv7/MDAudioPlayerController.o "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/MDAudioPlayerController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/MDAudioPlayerSample.build/Debug-iphoneos/MDAudioPlayerSample.build/Objects-normal/armv7/MDAudioPlayerSampleAppDelegate.o "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/Classes/MDAudioPlayerSampleAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/MDAudioPlayerSample.build/Debug-iphoneos/MDAudioPlayerSample.build/Objects-normal/armv7/RootViewController.o "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/Classes/RootViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/MDAudioPlayerSample.build/Debug-iphoneos/MDAudioPlayerSample.build/Objects-normal/armv7/main.o "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/MainWindow.xib"
+r0
+
+CCompileXIB "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/RootViewController.xib"
+r0
+
+CCpResource build/Debug-iphoneos/MDAudioPlayerSample.app/1.mp3 1.mp3
+r0
+
+CCpResource build/Debug-iphoneos/MDAudioPlayerSample.app/2.mp3 2.mp3
+r0
+
+CCpResource build/Debug-iphoneos/MDAudioPlayerSample.app/3.mp3 3.mp3
+r0
+
+CCpResource build/Debug-iphoneos/MDAudioPlayerSample.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+r0
+
+CCpResource build/Debug-iphoneos/MDAudioPlayerSample.app/sample.m4a sample.m4a
+r0
+
+CCreateUniversalBinary "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphoneos/MDAudioPlayerSample.app/MDAudioPlayerSample" normal "armv6 armv7"
+r0
+
+CGenerateDSYMFile "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphoneos/MDAudioPlayerSample.app.dSYM" "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphoneos/MDAudioPlayerSample.app/MDAudioPlayerSample"
+r0
+
+CLd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphoneos/MDAudioPlayerSample.build/Objects-normal/armv6/MDAudioPlayerSample" normal armv6
+r0
+
+CLd "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphoneos/MDAudioPlayerSample.build/Objects-normal/armv7/MDAudioPlayerSample" normal armv7
+r0
+
+CProcessInfoPlistFile "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphoneos/MDAudioPlayerSample.app/Info.plist" MDAudioPlayerSample-Info.plist
+r0
+
+CProcessPCH /var/folders/13/136EvvN7GUSSUrsEPwbcSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MDAudioPlayerSample_Prefix-ceqtfhoqmhqmbvflgbqlgwcgvwab/MDAudioPlayerSample_Prefix.pch.gch MDAudioPlayerSample_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/13/136EvvN7GUSSUrsEPwbcSk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MDAudioPlayerSample_Prefix-fydjfhtbhgmlambikmaowiicldqr/MDAudioPlayerSample_Prefix.pch.gch MDAudioPlayerSample_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessProductPackaging "/Users/Matt/Library/MobileDevice/Provisioning Profiles/B6D1DC03-2F36-4007-A8BD-741994396061.mobileprovision" "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphoneos/MDAudioPlayerSample.app/embedded.mobileprovision"
+r0
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/MDAudioPlayerSample.build/Debug-iphoneos/MDAudioPlayerSample.build/MDAudioPlayerSample.xcent"
+r0
+
+CTouch "/Users/Matt/Desktop/MDAudioPlayerController/Sample App/build/Debug-iphoneos/MDAudioPlayerSample.app"
+r0
+
