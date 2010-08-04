@@ -10,34 +10,6 @@
 #import <AVFoundation/AVFoundation.h>
 #import <QuartzCore/QuartzCore.h>
 
-@interface MDTableViewCell : UITableViewCell
-{
-	UIView				*contentView;
-}
-
-- (void)drawContentView:(CGRect)r;
-
-@end
-
-@interface MDAudioPlayerTableViewCell : MDTableViewCell
-{
-	NSString			*title;
-	NSString			*number;
-	NSString			*duration;
-	
-	BOOL				isEven;
-	BOOL				isSelectedIndex;
-}
-
-@property (nonatomic, copy) NSString *title;
-@property (nonatomic, copy) NSString *number;
-@property (nonatomic, copy) NSString *duration;
-
-@property (nonatomic, assign) BOOL isEven;
-@property (nonatomic, assign) BOOL isSelectedIndex;
-
-@end
-
 @interface MDAudioPlayerController : UIViewController <AVAudioPlayerDelegate, UITableViewDelegate, UITableViewDataSource>
 {
 	NSMutableArray		*soundFiles;

@@ -8,165 +8,7 @@
 
 #import "MDAudioPlayerController.h"
 #import "MDAudioFile.h"
-
-@interface MDTableViewCellView : UIView
-@end
-
-@implementation MDTableViewCellView
-
-- (void)drawRect:(CGRect)r
-{
-	[(MDTableViewCell *)[self superview] drawContentView:r];
-}
-
-@end
-
-
-@implementation MDTableViewCell
-
-- (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
-{
-	if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) 
-	{
-		contentView = [[MDTableViewCellView alloc] initWithFrame:CGRectZero];
-		contentView.opaque = NO;
-		[self addSubview:contentView];
-		[contentView release];
-	}
-	
-	return self;
-}
-
-- (void)dealloc
-{
-	[super dealloc];
-}
-
-- (void)setFrame:(CGRect)f
-{
-	[super setFrame:f];
-	[contentView setFrame:[self bounds]];
-}
-
-- (void)setNeedsDisplay
-{
-	[super setNeedsDisplay];
-	[contentView setNeedsDisplay];
-}
-
-- (void)drawContentView:(CGRect)r
-{
-	// subclasses should implement this
-}
-
-@end
-
-@implementation MDAudioPlayerTableViewCell
-
-@synthesize title;
-@synthesize number;
-@synthesize duration;
-@synthesize isEven;
-@synthesize isSelectedIndex;
-
-static UIFont *textFont = nil;
-
-+ (void)initialize
-{
-	if(self == [MDAudioPlayerTableViewCell class])
-	{
-		textFont = [[UIFont boldSystemFontOfSize:15] retain];
-	}
-}
-
-
-- (void)dealloc
-{
-	[title release];
-	[number release];
-	[duration release];
-    [super dealloc];
-}
-
-
-- (void)setTitle:(NSString *)s
-{
-	[title release];
-	title = [s copy];
-	[self setNeedsDisplay]; 
-}
-
-- (void)setNumber:(NSString *)s
-{
-	[number release];
-	number = [s copy];
-	[self setNeedsDisplay]; 
-}
-
-- (void)setDuration:(NSString *)s
-{
-	[duration release];
-	duration = [s copy];
-	[self setNeedsDisplay]; 
-}
-
-- (void)setIsSelectedIndex:(BOOL)flag
-{
-	isSelectedIndex = flag;
-	[self setNeedsDisplay];
-}
-
-- (void)drawContentView:(CGRect)r
-{
-	CGContextRef context = UIGraphicsGetCurrentContext();
-	
-	UIColor *bgColor;
-	
-	if (self.highlighted)
-		bgColor = [UIColor clearColor];
-	else
-		bgColor = self.isEven ? [UIColor colorWithWhite:0.0 alpha:0.25] : [UIColor clearColor];
-	
-	UIColor *textColor = [UIColor whiteColor];
-	UIColor *dividerColor = self.highlighted ? [UIColor clearColor] : [UIColor colorWithRed:0.986 green:0.933 blue:0.994 alpha:0.13];
-	
-	[bgColor set];
-	CGContextFillRect(context, r);
-	
-	[textColor set];
-	
-	[title drawInRect:CGRectMake(75, 12, 185, 15) withFont:textFont lineBreakMode:UILineBreakModeTailTruncation];
-	[number drawInRect:CGRectMake(5, 12, 35, 15) withFont:textFont lineBreakMode:UILineBreakModeTailTruncation];
-	[duration drawInRect:CGRectMake(270, 12, 45, 15) withFont:textFont lineBreakMode:UILineBreakModeTailTruncation alignment:UITextAlignmentRight];
-	
-	[dividerColor set];
-	
-	CGContextSetLineWidth(context, 0.5);
-	
-	CGContextMoveToPoint(context, 63.5, 0.0);
-	CGContextAddLineToPoint(context, 63.5, r.size.height);
-	
-	CGContextMoveToPoint(context, 260.5, 0.0);
-	CGContextAddLineToPoint(context, 260.5, r.size.height);
-		
-	CGContextStrokePath(context);
-	
-	if (self.isSelectedIndex)
-	{		
-		[self.highlighted ? [UIColor whiteColor] : [UIColor colorWithRed:0.090 green:0.274 blue:0.873 alpha:1.000] set];
-		
-		CGContextMoveToPoint(context, 45, 17);
-		CGContextAddLineToPoint(context, 45, 27);
-		CGContextAddLineToPoint(context, 55, 22);
-		
-		CGContextClosePath(context);
-		
-		CGContextFillPath(context);
-	}
-}
-
-
-@end
+#import "MDAudioPlayerTableViewCell.h"
 
 @interface MDAudioPlayerController ()
 - (UIImage *)reflectedImage:(UIButton *)fromImage withHeight:(NSUInteger)height;
@@ -216,7 +58,7 @@ static const CGFloat kDefaultReflectionOpacity = 0.40;
 @synthesize shuffle;
 
 
-void interruptionListenerCallback (void    *userData, UInt32  interruptionState)
+void interruptionListenerCallback (void *userData, UInt32 interruptionState)
 {
 	MDAudioPlayerController *vc = (MDAudioPlayerController *)userData;
 	if (interruptionState == kAudioSessionBeginInterruption)
@@ -228,7 +70,7 @@ void interruptionListenerCallback (void    *userData, UInt32  interruptionState)
 -(void)updateCurrentTimeForPlayer:(AVAudioPlayer *)p
 {
 	NSString *current = [NSString stringWithFormat:@"%d:%02d", (int)p.currentTime / 60, (int)p.currentTime % 60, nil];
-	NSString *dur = [NSString stringWithFormat:@"-%d:%02d", (int)((int)p.duration - (int)p.currentTime) / 60, (int)((int)p.duration - (int)p.currentTime) % 60, nil];
+	NSString *dur = [NSString stringWithFormat:@"-%d:%02d", (int)((int)(p.duration - p.currentTime)) / 60, (int)((int)(p.duration - p.currentTime)) % 60, nil];
 	duration.text = dur;
 	currentTime.text = current;
 	progressSlider.value = p.currentTime;
@@ -351,7 +193,7 @@ void interruptionListenerCallback (void    *userData, UInt32  interruptionState)
 	AudioSessionInitialize(NULL, NULL, interruptionListenerCallback, self);
 	AudioSessionSetActive(true);
 	UInt32 sessionCategory = kAudioSessionCategory_MediaPlayback;
-	AudioSessionSetProperty( kAudioSessionProperty_AudioCategory, sizeof(sessionCategory), &sessionCategory);	
+	AudioSessionSetProperty(kAudioSessionProperty_AudioCategory, sizeof(sessionCategory), &sessionCategory);	
 	
 	MDAudioFile *selectedSong = [self.soundFiles objectAtIndex:selectedIndex];
 	
@@ -508,7 +350,7 @@ void interruptionListenerCallback (void    *userData, UInt32  interruptionState)
 - (void)showSongFiles
 {
 	[UIView beginAnimations:nil context:NULL];
-	[UIView setAnimationDuration:0.75];
+	[UIView setAnimationDuration:5];
 	
 	[UIView setAnimationTransition:([self.songTableView superview] ?
 									UIViewAnimationTransitionFlipFromLeft : UIViewAnimationTransitionFlipFromRight)
@@ -521,7 +363,7 @@ void interruptionListenerCallback (void    *userData, UInt32  interruptionState)
 	[UIView commitAnimations];
 	
 	[UIView beginAnimations:nil context:NULL];
-	[UIView setAnimationDuration:0.75];
+	[UIView setAnimationDuration:5];
 	
 	[UIView setAnimationTransition:([self.songTableView superview] ?
 									UIViewAnimationTransitionFlipFromLeft : UIViewAnimationTransitionFlipFromRight)
@@ -941,35 +783,26 @@ CGImageRef CreateGradientImage(int pixelsWide, int pixelsHigh)
 {
 	CGImageRef theCGImage = NULL;
 	
-	// gradient is always black-white and the mask must be in the gray colorspace
     CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceGray();
 	
-	// create the bitmap context
 	CGContextRef gradientBitmapContext = CGBitmapContextCreate(NULL, pixelsWide, pixelsHigh,
 															   8, 0, colorSpace, kCGImageAlphaNone);
-	
-	// define the start and end grayscale values (with the alpha, even though
-	// our bitmap context doesn't support alpha the gradient requires it)
+
 	CGFloat colors[] = {0.0, 1.0, 1.0, 1.0};
 	
-	// create the CGGradient and then release the gray color space
 	CGGradientRef grayScaleGradient = CGGradientCreateWithColorComponents(colorSpace, colors, NULL, 2);
 	CGColorSpaceRelease(colorSpace);
 	
-	// create the start and end points for the gradient vector (straight down)
 	CGPoint gradientStartPoint = CGPointZero;
 	CGPoint gradientEndPoint = CGPointMake(0, pixelsHigh);
 	
-	// draw the gradient into the gray bitmap context
 	CGContextDrawLinearGradient(gradientBitmapContext, grayScaleGradient, gradientStartPoint,
 								gradientEndPoint, kCGGradientDrawsAfterEndLocation);
 	CGGradientRelease(grayScaleGradient);
 	
-	// convert the context into a CGImageRef and release the context
 	theCGImage = CGBitmapContextCreateImage(gradientBitmapContext);
 	CGContextRelease(gradientBitmapContext);
 	
-	// return the imageref containing the gradient
     return theCGImage;
 }
 
@@ -995,32 +828,21 @@ CGContextRef MyCreateBitmapContext(int pixelsWide, int pixelsHigh)
 	// create a bitmap graphics context the size of the image
 	CGContextRef mainViewContentContext = MyCreateBitmapContext(fromImage.bounds.size.width, height);
 	
-	// create a 2 bit CGImage containing a gradient that will be used for masking the 
-	// main view content to create the 'fade' of the reflection.  The CGImageCreateWithMask
-	// function will stretch the bitmap image as required, so we can create a 1 pixel wide gradient
 	CGImageRef gradientMaskImage = CreateGradientImage(1, height);
 	
-	// create an image by masking the bitmap of the mainView content with the gradient view
-	// then release the  pre-masked content bitmap and the gradient bitmap
 	CGContextClipToMask(mainViewContentContext, CGRectMake(0.0, 0.0, fromImage.bounds.size.width, height), gradientMaskImage);
 	CGImageRelease(gradientMaskImage);
-	
-	// In order to grab the part of the image that we want to render, we move the context origin to the
-	// height of the image that we want to capture, then we flip the context so that the image draws upside down.
+
 	CGContextTranslateCTM(mainViewContentContext, 0.0, height);
 	CGContextScaleCTM(mainViewContentContext, 1.0, -1.0);
 	
-	// draw the image into the bitmap context
 	CGContextDrawImage(mainViewContentContext, fromImage.bounds, fromImage.imageView.image.CGImage);
 	
-	// create CGImageRef of the main view bitmap content, and then release that bitmap context
 	CGImageRef reflectionImage = CGBitmapContextCreateImage(mainViewContentContext);
 	CGContextRelease(mainViewContentContext);
 	
-	// convert the finished reflection image to a UIImage 
 	UIImage *theImage = [UIImage imageWithCGImage:reflectionImage];
 	
-	// image is retained by the property setting above, so we can release the original
 	CGImageRelease(reflectionImage);
 	
 	return theImage;

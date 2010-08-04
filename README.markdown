@@ -1,7 +1,9 @@
 MDAudioPlayerController
-=====================
+=======================
 
 MDAudioPlayerController is an Objective-C library for iPhone used to play MP3 files in an interface similar to the iPod app
+
+[![](http://dl.dropbox.com/u/1310689/MDAudioPlayerControllerPreview1.jpg)](http://dl.dropbox.com/u/1310689/MDAudioPlayerControllerPreview1Large.jpg)[![](http://dl.dropbox.com/u/1310689/MDAudioPlayerControllerPreview2.jpg)](http://dl.dropbox.com/u/1310689/MDAudioPlayerControllerPreview2Large.jpg)[![](http://dl.dropbox.com/u/1310689/MDAudioPlayerControllerPreview3.jpg)](http://dl.dropbox.com/u/1310689/MDAudioPlayerControllerPreview3Large.jpg)
 
 
 Donations
@@ -15,12 +17,13 @@ If you find it helpful, a Paypal donation would be very really appreciated (matt
 Features
 --------
 
-- Reads ID3 tags from MP3s
-- Displays track list
-- Scrubbing
-- Volume Adjusting
-- Shuffling
-- Repeat One/All
+* Reads ID3 tags from MP3s
+* Displays track list
+* Multiple tracks
+* Scrubbing
+* Volume Adjusting
+* Shuffling
+* Repeat One/All
 
 
 How to use
@@ -40,6 +43,7 @@ Enjoy using it!
   
 Matt Donnelly  
 
+Email: mattdonnelly [at] me [dot] com
 Twitter: http://twitter.com/MatthewDonnelly  
 
 

@@ -87,7 +87,9 @@
 	
     error = AudioFileGetProperty(fileID, kAudioFilePropertyInfoDictionary, &piDataSize, &piDict);
     if (error != noErr)
-        NSLog( @"AudioFileGetProperty failed for property info dictionary" );
+        NSLog(@"AudioFileGetProperty failed for property info dictionary");
+	
+	free(rawID3Tag);
 	
 	return (NSDictionary*)piDict;
 }
