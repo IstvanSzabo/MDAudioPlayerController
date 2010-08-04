@@ -11,7 +11,7 @@ Donations
 
 I wrote MDAudioPlayerController for use in one of my own apps and realized after I had finally finished it that it could be quite useful (and very time-saving) for others
 
-If you find it helpful, a Paypal donation would be very really appreciated (mattdonnelly [at] me [dot] com) 
+If you find it helpful, a Paypal donation would be very appreciated (mattdonnelly [at] me [dot] com) 
 
 
 Features
